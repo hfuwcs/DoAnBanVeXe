@@ -1,0 +1,11 @@
+D:\HK5\dotNET\DoAnCuoiKy\bin\Debug\DoAnCuoiKy.exe.config
+D:\HK5\dotNET\DoAnCuoiKy\bin\Debug\DoAnCuoiKy.exe
+D:\HK5\dotNET\DoAnCuoiKy\bin\Debug\DoAnCuoiKy.pdb
+D:\HK5\dotNET\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.csproj.AssemblyReference.cache
+D:\HK5\dotNET\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.Properties.Resources.resources
+D:\HK5\dotNET\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.csproj.GenerateResource.cache
+D:\HK5\dotNET\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.csproj.CoreCompileInputs.cache
+D:\HK5\dotNET\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.exe
+D:\HK5\dotNET\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.pdb
+D:\HK5\dotNET\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.BanVeXe.resources
+D:\HK5\dotNET\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.DangNhap.resources
