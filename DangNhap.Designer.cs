@@ -33,7 +33,6 @@
             this.lbl_Password = new System.Windows.Forms.Label();
             this.txtBox_Pass = new System.Windows.Forms.TextBox();
             this.btn_DangNhap = new System.Windows.Forms.Button();
-            this.linkLabel_DangKy = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // lbl_Email
@@ -86,23 +85,12 @@
             this.btn_DangNhap.UseVisualStyleBackColor = true;
             this.btn_DangNhap.Click += new System.EventHandler(this.btn_DangNhap_Click);
             // 
-            // linkLabel_DangKy
-            // 
-            this.linkLabel_DangKy.AutoSize = true;
-            this.linkLabel_DangKy.Location = new System.Drawing.Point(313, 193);
-            this.linkLabel_DangKy.Name = "linkLabel_DangKy";
-            this.linkLabel_DangKy.Size = new System.Drawing.Size(172, 16);
-            this.linkLabel_DangKy.TabIndex = 5;
-            this.linkLabel_DangKy.TabStop = true;
-            this.linkLabel_DangKy.Text = "Chưa có tài khoản? Đăng ký";
-            // 
             // DangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(561, 356);
-            this.Controls.Add(this.linkLabel_DangKy);
             this.Controls.Add(this.btn_DangNhap);
             this.Controls.Add(this.txtBox_Pass);
             this.Controls.Add(this.lbl_Password);
@@ -123,6 +111,5 @@
         private System.Windows.Forms.Label lbl_Password;
         private System.Windows.Forms.TextBox txtBox_Pass;
         private System.Windows.Forms.Button btn_DangNhap;
-        private System.Windows.Forms.LinkLabel linkLabel_DangKy;
     }
 }
