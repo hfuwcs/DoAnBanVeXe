@@ -55,6 +55,7 @@
             this.btn_MuaVe.TabIndex = 3;
             this.btn_MuaVe.Text = "Mua Vé";
             this.btn_MuaVe.UseVisualStyleBackColor = true;
+            this.btn_MuaVe.Click += new System.EventHandler(this.btn_MuaVe_Click);
             // 
             // btn_QuanLyChuyen
             // 
@@ -90,7 +91,7 @@
             // 
             // BanVeXe
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::DoAnCuoiKy.Properties.Resources.futa;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;

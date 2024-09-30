@@ -12,6 +12,8 @@ namespace DoAnCuoiKy
 {
     public partial class frmHoaDon : Form
     {
+
+        public frmHoaDon instance;
         public frmHoaDon()
         {
             InitializeComponent();

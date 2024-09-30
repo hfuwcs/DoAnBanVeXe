@@ -12,10 +12,10 @@ namespace DoAnCuoiKy
 {
     public partial class frmDatVe : Form
     {
+        public frmDatVe instance;
         public frmDatVe()
         {
             InitializeComponent();
         }
-
     }
 }

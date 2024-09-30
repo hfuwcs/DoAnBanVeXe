@@ -52,5 +52,11 @@ namespace DoAnCuoiKy
             btn_Thoat.Location = point;
             btn_QuanLyChuyen.Visible = true;
         }
+
+        private void btn_MuaVe_Click(object sender, EventArgs e)
+        {
+            frmDatVe frmDatVe = new frmDatVe();
+            frmDatVe.Show();
+        }
     }
 }
