@@ -10,14 +10,11 @@ using System.Windows.Forms;
 
 namespace DoAnCuoiKy
 {
-    public partial class frmDatVe : Form
+    public partial class frmThongTin : Form
     {
-        public frmDatVe instance;
-        public frmDatVe()
+        public frmThongTin()
         {
             InitializeComponent();
         }
-
-
     }
 }
