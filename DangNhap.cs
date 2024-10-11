@@ -59,5 +59,21 @@ namespace DoAnCuoiKy
             BanVeXe.instance.button_QuanLyChuyen.Visible = true;
             BanVeXe.instance.button_Thoat.Location = point;
         }
+
+        private void DangNhap_FormClosed(object sender, FormClosedEventArgs e)
+        {
+
+        }
+
+        private void btn_ThoatDangNhap_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void linkLabel_DoiMatKhau_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            DoiMatKhau doiMatKhau = new DoiMatKhau();
+            doiMatKhau.Show();
+        }
     }
 }

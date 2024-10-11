@@ -33,6 +33,8 @@
             this.lbl_Password = new System.Windows.Forms.Label();
             this.txtBox_Pass = new System.Windows.Forms.TextBox();
             this.btn_DangNhap = new System.Windows.Forms.Button();
+            this.btn_ThoatDangNhap = new System.Windows.Forms.Button();
+            this.linkLabel_DoiMatKhau = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // lbl_Email
@@ -77,7 +79,7 @@
             // btn_DangNhap
             // 
             this.btn_DangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_DangNhap.Location = new System.Drawing.Point(178, 244);
+            this.btn_DangNhap.Location = new System.Drawing.Point(84, 244);
             this.btn_DangNhap.Name = "btn_DangNhap";
             this.btn_DangNhap.Size = new System.Drawing.Size(213, 43);
             this.btn_DangNhap.TabIndex = 4;
@@ -85,12 +87,37 @@
             this.btn_DangNhap.UseVisualStyleBackColor = true;
             this.btn_DangNhap.Click += new System.EventHandler(this.btn_DangNhap_Click);
             // 
+            // btn_ThoatDangNhap
+            // 
+            this.btn_ThoatDangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_ThoatDangNhap.Location = new System.Drawing.Point(303, 244);
+            this.btn_ThoatDangNhap.Name = "btn_ThoatDangNhap";
+            this.btn_ThoatDangNhap.Size = new System.Drawing.Size(213, 43);
+            this.btn_ThoatDangNhap.TabIndex = 5;
+            this.btn_ThoatDangNhap.Text = "Thoát";
+            this.btn_ThoatDangNhap.UseVisualStyleBackColor = true;
+            this.btn_ThoatDangNhap.Click += new System.EventHandler(this.btn_ThoatDangNhap_Click);
+            // 
+            // linkLabel_DoiMatKhau
+            // 
+            this.linkLabel_DoiMatKhau.AutoSize = true;
+            this.linkLabel_DoiMatKhau.Font = new System.Drawing.Font("Montserrat", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel_DoiMatKhau.Location = new System.Drawing.Point(359, 195);
+            this.linkLabel_DoiMatKhau.Name = "linkLabel_DoiMatKhau";
+            this.linkLabel_DoiMatKhau.Size = new System.Drawing.Size(126, 23);
+            this.linkLabel_DoiMatKhau.TabIndex = 6;
+            this.linkLabel_DoiMatKhau.TabStop = true;
+            this.linkLabel_DoiMatKhau.Text = "Đổi mật khẩu";
+            this.linkLabel_DoiMatKhau.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_DoiMatKhau_LinkClicked);
+            // 
             // DangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(561, 356);
+            this.Controls.Add(this.linkLabel_DoiMatKhau);
+            this.Controls.Add(this.btn_ThoatDangNhap);
             this.Controls.Add(this.btn_DangNhap);
             this.Controls.Add(this.txtBox_Pass);
             this.Controls.Add(this.lbl_Password);
@@ -99,6 +126,7 @@
             this.Name = "DangNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DangNhap";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.DangNhap_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -111,5 +139,7 @@
         private System.Windows.Forms.Label lbl_Password;
         private System.Windows.Forms.TextBox txtBox_Pass;
         private System.Windows.Forms.Button btn_DangNhap;
+        private System.Windows.Forms.Button btn_ThoatDangNhap;
+        private System.Windows.Forms.LinkLabel linkLabel_DoiMatKhau;
     }
 }

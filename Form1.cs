@@ -20,12 +20,8 @@ namespace DoAnCuoiKy
         {
             InitializeComponent();
             instance = this;
-            button_Thoat = btn_Thoat;
+            button_Thoat = btn_DoanhThu;
             button_QuanLyChuyen = btn_QuanLyChuyen;
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
@@ -49,7 +45,7 @@ namespace DoAnCuoiKy
         private void btn_TrangChu_Click(object sender, EventArgs e)
         {
             Point point = new Point(56, 468);
-            btn_Thoat.Location = point;
+            btn_DoanhThu.Location = point;
             btn_QuanLyChuyen.Visible = true;
         }
 
@@ -57,6 +53,16 @@ namespace DoAnCuoiKy
         {
             frmDatVe frmDatVe = new frmDatVe();
             frmDatVe.Show();
+        }
+
+        private void btn_TraCuuVe_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_QuanLyChuyen_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
