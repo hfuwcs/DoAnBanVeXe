@@ -24,5 +24,10 @@ namespace DoAnCuoiKy
             //Load các tài khoản hiện có lên listbox để admin có quyền thay đổi;
             //listBox_AllAccount.DataSource;
         }
+
+        private void btn_ThoatDangNhap_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

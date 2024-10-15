@@ -23,7 +23,13 @@ namespace DoAnCuoiKy
             button_Thoat = btn_DoanhThu;
             button_QuanLyChuyen = btn_QuanLyChuyen;
         }
-
+        private void AddUserControl(UserControl userControl)
+        {
+            userControl.Dock=DockStyle.Fill;
+            panelContainer.Controls.Clear();
+            panelContainer.Controls.Add(userControl);
+            userControl.BringToFront();
+        }
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (MessageBox.Show("Bạn có muốn thoát", "Thoát?", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1) == DialogResult.No) { 
@@ -49,18 +55,28 @@ namespace DoAnCuoiKy
             btn_QuanLyChuyen.Visible = true;
         }
 
-        private void btn_MuaVe_Click(object sender, EventArgs e)
-        {
-            frmDatVe frmDatVe = new frmDatVe();
-            frmDatVe.Show();
-        }
-
         private void btn_TraCuuVe_Click(object sender, EventArgs e)
         {
 
         }
 
         private void btn_QuanLyChuyen_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_BanVe_Click(object sender, EventArgs e)
+        {
+            UC_DatVe ucDatVe = new UC_DatVe();
+            AddUserControl(ucDatVe);
+        }
+
+        private void btn_TrangChu_Click_1(object sender, EventArgs e)
+        {
+            panelContainer.Controls.Clear();
+        }
+
+        private void panel_Sidebar_Paint(object sender, PaintEventArgs e)
         {
 
         }

@@ -65,12 +65,6 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDatVe.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmDatVe.Designer.cs">
-      <DependentUpon>frmDatVe.cs</DependentUpon>
-    </Compile>
     <Compile Include="QuanLyChuyen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +97,12 @@
     <Compile Include="QuanLyDoanhThuChuyen.Designer.cs">
       <DependentUpon>QuanLyDoanhThuChuyen.cs</DependentUpon>
     </Compile>
+    <Compile Include="UC_DatVe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_DatVe.Designer.cs">
+      <DependentUpon>UC_DatVe.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </EmbeddedResource>
@@ -111,9 +111,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmDatVe.resx">
-      <DependentUpon>frmDatVe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="QuanLyChuyen.resx">
       <DependentUpon>QuanLyChuyen.cs</DependentUpon>
@@ -139,6 +136,9 @@
     </Compile>
     <EmbeddedResource Include="QuanLyDoanhThuChuyen.resx">
       <DependentUpon>QuanLyDoanhThuChuyen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_DatVe.resx">
+      <DependentUpon>UC_DatVe.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

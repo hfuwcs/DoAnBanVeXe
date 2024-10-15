@@ -10,14 +10,16 @@ using System.Windows.Forms;
 
 namespace DoAnCuoiKy
 {
-    public partial class frmDatVe : Form
+    public partial class UC_DatVe : UserControl
     {
-        public frmDatVe instance;
-        public frmDatVe()
+        public UC_DatVe()
         {
             InitializeComponent();
         }
 
+        private void UC_DatVe_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }
