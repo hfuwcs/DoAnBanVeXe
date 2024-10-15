@@ -159,5 +159,11 @@
   <ItemGroup>
     <None Include="Resources\XePT.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyLibrary\MyLibrary.csproj">
+      <Project>{5e53a555-935d-4702-a14f-ad9e55f10a10}</Project>
+      <Name>MyLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -3,24 +3,19 @@
   "WorkspaceRootPath": "D:\\HK5\\dotNET\\DoAnCuoiKy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85D31B9B-FEB1-4E62-B311-CE85B67B1775}|DoAnCuoiKy.csproj|d:\\hk5\\dotnet\\doancuoiky\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85D31B9B-FEB1-4E62-B311-CE85B67B1775}|DoAnCuoiKy.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85D31B9B-FEB1-4E62-B311-CE85B67B1775}|DoAnCuoiKy.csproj|D:\\HK5\\dotNET\\DoAnCuoiKy\\uc_datve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85D31B9B-FEB1-4E62-B311-CE85B67B1775}|DoAnCuoiKy.csproj|solutionrelative:uc_datve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85D31B9B-FEB1-4E62-B311-CE85B67B1775}|DoAnCuoiKy.csproj|D:\\HK5\\dotNET\\DoAnCuoiKy\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{85D31B9B-FEB1-4E62-B311-CE85B67B1775}|DoAnCuoiKy.csproj|solutionrelative:frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85D31B9B-FEB1-4E62-B311-CE85B67B1775}|DoAnCuoiKy.csproj|D:\\HK5\\dotNET\\DoAnCuoiKy\\uc_datve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{85D31B9B-FEB1-4E62-B311-CE85B67B1775}|DoAnCuoiKy.csproj|solutionrelative:uc_datve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5E53A555-935D-4702-A14F-AD9E55F10A10}|..\\MyLibrary\\MyLibrary.csproj|d:\\hk5\\dotnet\\mylibrary\\mylib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{85D31B9B-FEB1-4E62-B311-CE85B67B1775}|DoAnCuoiKy.csproj|D:\\HK5\\dotNET\\DoAnCuoiKy\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{85D31B9B-FEB1-4E62-B311-CE85B67B1775}|DoAnCuoiKy.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85D31B9B-FEB1-4E62-B311-CE85B67B1775}|DoAnCuoiKy.csproj|D:\\HK5\\dotNET\\DoAnCuoiKy\\frmthongtin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{85D31B9B-FEB1-4E62-B311-CE85B67B1775}|DoAnCuoiKy.csproj|solutionrelative:frmthongtin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{85D31B9B-FEB1-4E62-B311-CE85B67B1775}|DoAnCuoiKy.csproj|d:\\hk5\\dotnet\\doancuoiky\\uc_datve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{85D31B9B-FEB1-4E62-B311-CE85B67B1775}|DoAnCuoiKy.csproj|solutionrelative:uc_datve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,59 +34,52 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmHoaDon.cs [Design]",
-              "DocumentMoniker": "D:\\HK5\\dotNET\\DoAnCuoiKy\\frmHoaDon.cs",
-              "RelativeDocumentMoniker": "frmHoaDon.cs",
-              "ToolTip": "D:\\HK5\\dotNET\\DoAnCuoiKy\\frmHoaDon.cs [Design]",
-              "RelativeToolTip": "frmHoaDon.cs [Design]",
+              "Title": "MyLib.cs",
+              "DocumentMoniker": "D:\\HK5\\dotNET\\MyLibrary\\MyLib.cs",
+              "RelativeDocumentMoniker": "..\\MyLibrary\\MyLib.cs",
+              "ToolTip": "D:\\HK5\\dotNET\\MyLibrary\\MyLib.cs",
+              "RelativeToolTip": "..\\MyLibrary\\MyLib.cs",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAAAF0AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T14:47:10.296Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\HK5\\dotNET\\DoAnCuoiKy\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\HK5\\dotNET\\DoAnCuoiKy\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAvwDcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T14:45:16.879Z",
+              "WhenOpened": "2024-10-15T06:22:11.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "UC_DatVe.cs",
+              "DocumentMoniker": "D:\\HK5\\dotNET\\DoAnCuoiKy\\UC_DatVe.cs",
+              "RelativeDocumentMoniker": "UC_DatVe.cs",
+              "ToolTip": "D:\\HK5\\dotNET\\DoAnCuoiKy\\UC_DatVe.cs",
+              "RelativeToolTip": "UC_DatVe.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwEsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T05:40:33.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\HK5\\dotNET\\DoAnCuoiKy\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "D:\\HK5\\dotNET\\DoAnCuoiKy\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T14:23:20.529Z"
+              "WhenOpened": "2024-10-14T14:23:20.529Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UC_DatVe.cs [Design]",
               "DocumentMoniker": "D:\\HK5\\dotNET\\DoAnCuoiKy\\UC_DatVe.cs",
               "RelativeDocumentMoniker": "UC_DatVe.cs",
               "ToolTip": "D:\\HK5\\dotNET\\DoAnCuoiKy\\UC_DatVe.cs [Design]",
               "RelativeToolTip": "UC_DatVe.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T14:21:38.024Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmThongTin.cs [Design]",
-              "DocumentMoniker": "D:\\HK5\\dotNET\\DoAnCuoiKy\\frmThongTin.cs",
-              "RelativeDocumentMoniker": "frmThongTin.cs",
-              "ToolTip": "D:\\HK5\\dotNET\\DoAnCuoiKy\\frmThongTin.cs [Design]",
-              "RelativeToolTip": "frmThongTin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T14:12:08.16Z"
+              "WhenOpened": "2024-10-14T14:21:38.024Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

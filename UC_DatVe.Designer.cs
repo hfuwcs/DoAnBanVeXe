@@ -36,10 +36,16 @@
             this.btnB21 = new System.Windows.Forms.Button();
             this.btnB20 = new System.Windows.Forms.Button();
             this.btnB19 = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker_StarDate = new System.Windows.Forms.DateTimePicker();
             this.Thoat = new System.Windows.Forms.Button();
             this.btnThanhToan = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.dataGridView_TimXe = new System.Windows.Forms.DataGridView();
+            this.BusNumBer = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TotalSeat = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BusType = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DepartureTime = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ArrivalTime = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnTimChuyenXe = new System.Windows.Forms.Button();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.lblEmail = new System.Windows.Forms.Label();
@@ -48,7 +54,6 @@
             this.txtHoTen = new System.Windows.Forms.TextBox();
             this.lblHoTen = new System.Windows.Forms.Label();
             this.lblNgayDi = new System.Windows.Forms.Label();
-            this.txtTuyen = new System.Windows.Forms.TextBox();
             this.lblTuyen = new System.Windows.Forms.Label();
             this.txtTamTinh = new System.Windows.Forms.TextBox();
             this.txtGheDaChon = new System.Windows.Forms.TextBox();
@@ -74,33 +79,38 @@
             this.btnB02 = new System.Windows.Forms.Button();
             this.btnB01 = new System.Windows.Forms.Button();
             this.lblTang2 = new System.Windows.Forms.Label();
-            this.btnA18 = new System.Windows.Forms.Button();
-            this.btnA17 = new System.Windows.Forms.Button();
-            this.btnA16 = new System.Windows.Forms.Button();
-            this.btnA15 = new System.Windows.Forms.Button();
-            this.btnA14 = new System.Windows.Forms.Button();
-            this.btnA13 = new System.Windows.Forms.Button();
+            this.A18 = new System.Windows.Forms.Button();
+            this.A17 = new System.Windows.Forms.Button();
+            this.A16 = new System.Windows.Forms.Button();
+            this.A15 = new System.Windows.Forms.Button();
+            this.A14 = new System.Windows.Forms.Button();
+            this.A13 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnA24 = new System.Windows.Forms.Button();
-            this.btnA22 = new System.Windows.Forms.Button();
-            this.btnA25 = new System.Windows.Forms.Button();
-            this.btnA23 = new System.Windows.Forms.Button();
-            this.btnA21 = new System.Windows.Forms.Button();
-            this.btnA20 = new System.Windows.Forms.Button();
+            this.A24 = new System.Windows.Forms.Button();
+            this.A22 = new System.Windows.Forms.Button();
+            this.A25 = new System.Windows.Forms.Button();
+            this.A23 = new System.Windows.Forms.Button();
+            this.A21 = new System.Windows.Forms.Button();
+            this.A20 = new System.Windows.Forms.Button();
             this.btnA19 = new System.Windows.Forms.Button();
-            this.btnA12 = new System.Windows.Forms.Button();
+            this.A12 = new System.Windows.Forms.Button();
             this.btnA11 = new System.Windows.Forms.Button();
-            this.btnA10 = new System.Windows.Forms.Button();
-            this.btnA09 = new System.Windows.Forms.Button();
-            this.btnA08 = new System.Windows.Forms.Button();
+            this.A10 = new System.Windows.Forms.Button();
+            this.A09 = new System.Windows.Forms.Button();
+            this.A08 = new System.Windows.Forms.Button();
             this.btnA07 = new System.Windows.Forms.Button();
-            this.btnA06 = new System.Windows.Forms.Button();
-            this.btnA05 = new System.Windows.Forms.Button();
-            this.btnA04 = new System.Windows.Forms.Button();
-            this.btnA03 = new System.Windows.Forms.Button();
-            this.btnA02 = new System.Windows.Forms.Button();
-            this.btnA01 = new System.Windows.Forms.Button();
+            this.A06 = new System.Windows.Forms.Button();
+            this.A05 = new System.Windows.Forms.Button();
+            this.A04 = new System.Windows.Forms.Button();
+            this.A03 = new System.Windows.Forms.Button();
+            this.A02 = new System.Windows.Forms.Button();
+            this.A01 = new System.Windows.Forms.Button();
             this.lblHeader = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.comboBox_Start = new System.Windows.Forms.ComboBox();
+            this.comboBox_End = new System.Windows.Forms.ComboBox();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_TimXe)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -152,7 +162,7 @@
             // btnB22
             // 
             this.btnB22.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnB22.Location = new System.Drawing.Point(78, 436);
+            this.btnB22.Location = new System.Drawing.Point(77, 436);
             this.btnB22.Margin = new System.Windows.Forms.Padding(4);
             this.btnB22.Name = "btnB22";
             this.btnB22.Size = new System.Drawing.Size(51, 36);
@@ -193,16 +203,16 @@
             this.btnB19.Text = "B19";
             this.btnB19.UseVisualStyleBackColor = true;
             // 
-            // dateTimePicker1
+            // dateTimePicker_StarDate
             // 
-            this.dateTimePicker1.CustomFormat = "dd/MM/yyyy";
-            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(914, 147);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(440, 34);
-            this.dateTimePicker1.TabIndex = 70;
+            this.dateTimePicker_StarDate.CustomFormat = "dd/MM/yyyy";
+            this.dateTimePicker_StarDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker_StarDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker_StarDate.Location = new System.Drawing.Point(915, 146);
+            this.dateTimePicker_StarDate.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker_StarDate.Name = "dateTimePicker_StarDate";
+            this.dateTimePicker_StarDate.Size = new System.Drawing.Size(440, 34);
+            this.dateTimePicker_StarDate.TabIndex = 70;
             // 
             // Thoat
             // 
@@ -218,7 +228,7 @@
             // btnThanhToan
             // 
             this.btnThanhToan.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThanhToan.Location = new System.Drawing.Point(1246, 1230);
+            this.btnThanhToan.Location = new System.Drawing.Point(1245, 1230);
             this.btnThanhToan.Margin = new System.Windows.Forms.Padding(4);
             this.btnThanhToan.Name = "btnThanhToan";
             this.btnThanhToan.Size = new System.Drawing.Size(191, 58);
@@ -229,28 +239,93 @@
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.dataGridView_TimXe);
             this.panel3.Location = new System.Drawing.Point(716, 474);
             this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(728, 251);
+            this.panel3.Size = new System.Drawing.Size(727, 251);
             this.panel3.TabIndex = 67;
+            // 
+            // dataGridView_TimXe
+            // 
+            this.dataGridView_TimXe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_TimXe.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.BusNumBer,
+            this.TotalSeat,
+            this.BusType,
+            this.DepartureTime,
+            this.ArrivalTime});
+            this.dataGridView_TimXe.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView_TimXe.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView_TimXe.Name = "dataGridView_TimXe";
+            this.dataGridView_TimXe.RowHeadersWidth = 51;
+            this.dataGridView_TimXe.RowTemplate.Height = 24;
+            this.dataGridView_TimXe.Size = new System.Drawing.Size(725, 249);
+            this.dataGridView_TimXe.TabIndex = 0;
+            this.dataGridView_TimXe.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_TimXe_CellDoubleClick);
+            // 
+            // BusNumBer
+            // 
+            this.BusNumBer.DataPropertyName = "BusNumber";
+            this.BusNumBer.HeaderText = "Biển số xe";
+            this.BusNumBer.MinimumWidth = 6;
+            this.BusNumBer.Name = "BusNumBer";
+            this.BusNumBer.ReadOnly = true;
+            this.BusNumBer.Width = 125;
+            // 
+            // TotalSeat
+            // 
+            this.TotalSeat.DataPropertyName = "TotalSeat";
+            this.TotalSeat.HeaderText = "Tổng số ghế";
+            this.TotalSeat.MinimumWidth = 6;
+            this.TotalSeat.Name = "TotalSeat";
+            this.TotalSeat.ReadOnly = true;
+            this.TotalSeat.Width = 125;
+            // 
+            // BusType
+            // 
+            this.BusType.DataPropertyName = "BusType";
+            this.BusType.HeaderText = "Loại Xe";
+            this.BusType.MinimumWidth = 6;
+            this.BusType.Name = "BusType";
+            this.BusType.ReadOnly = true;
+            this.BusType.Width = 125;
+            // 
+            // DepartureTime
+            // 
+            this.DepartureTime.DataPropertyName = "DepartureTime";
+            this.DepartureTime.HeaderText = "Giờ khởi hành";
+            this.DepartureTime.MinimumWidth = 6;
+            this.DepartureTime.Name = "DepartureTime";
+            this.DepartureTime.ReadOnly = true;
+            this.DepartureTime.Width = 125;
+            // 
+            // ArrivalTime
+            // 
+            this.ArrivalTime.DataPropertyName = "ArrivalTime";
+            this.ArrivalTime.HeaderText = "Giờ cập bến";
+            this.ArrivalTime.MinimumWidth = 6;
+            this.ArrivalTime.Name = "ArrivalTime";
+            this.ArrivalTime.ReadOnly = true;
+            this.ArrivalTime.Width = 125;
             // 
             // btnTimChuyenXe
             // 
             this.btnTimChuyenXe.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTimChuyenXe.Location = new System.Drawing.Point(715, 413);
+            this.btnTimChuyenXe.Location = new System.Drawing.Point(715, 414);
             this.btnTimChuyenXe.Margin = new System.Windows.Forms.Padding(4);
             this.btnTimChuyenXe.Name = "btnTimChuyenXe";
             this.btnTimChuyenXe.Size = new System.Drawing.Size(729, 53);
             this.btnTimChuyenXe.TabIndex = 66;
             this.btnTimChuyenXe.Text = "Tìm chuyến xe";
             this.btnTimChuyenXe.UseVisualStyleBackColor = true;
+            this.btnTimChuyenXe.Click += new System.EventHandler(this.btnTimChuyenXe_Click);
             // 
             // txtEmail
             // 
             this.txtEmail.Enabled = false;
             this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.txtEmail.Location = new System.Drawing.Point(914, 348);
+            this.txtEmail.Location = new System.Drawing.Point(915, 348);
             this.txtEmail.Margin = new System.Windows.Forms.Padding(4);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(440, 34);
@@ -272,7 +347,7 @@
             // 
             this.txtSDT.Enabled = false;
             this.txtSDT.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.txtSDT.Location = new System.Drawing.Point(914, 273);
+            this.txtSDT.Location = new System.Drawing.Point(915, 273);
             this.txtSDT.Margin = new System.Windows.Forms.Padding(4);
             this.txtSDT.Name = "txtSDT";
             this.txtSDT.Size = new System.Drawing.Size(440, 34);
@@ -294,7 +369,7 @@
             // 
             this.txtHoTen.Enabled = false;
             this.txtHoTen.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.txtHoTen.Location = new System.Drawing.Point(914, 203);
+            this.txtHoTen.Location = new System.Drawing.Point(915, 203);
             this.txtHoTen.Margin = new System.Windows.Forms.Padding(4);
             this.txtHoTen.Name = "txtHoTen";
             this.txtHoTen.Size = new System.Drawing.Size(440, 34);
@@ -317,22 +392,12 @@
             this.lblNgayDi.AutoSize = true;
             this.lblNgayDi.BackColor = System.Drawing.Color.DodgerBlue;
             this.lblNgayDi.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
-            this.lblNgayDi.Location = new System.Drawing.Point(737, 131);
+            this.lblNgayDi.Location = new System.Drawing.Point(737, 130);
             this.lblNgayDi.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNgayDi.Name = "lblNgayDi";
             this.lblNgayDi.Size = new System.Drawing.Size(102, 29);
             this.lblNgayDi.TabIndex = 59;
             this.lblNgayDi.Text = "Ngày đi";
-            // 
-            // txtTuyen
-            // 
-            this.txtTuyen.Enabled = false;
-            this.txtTuyen.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTuyen.Location = new System.Drawing.Point(914, 70);
-            this.txtTuyen.Margin = new System.Windows.Forms.Padding(4);
-            this.txtTuyen.Name = "txtTuyen";
-            this.txtTuyen.Size = new System.Drawing.Size(440, 34);
-            this.txtTuyen.TabIndex = 58;
             // 
             // lblTuyen
             // 
@@ -360,7 +425,7 @@
             // 
             this.txtGheDaChon.Enabled = false;
             this.txtGheDaChon.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtGheDaChon.Location = new System.Drawing.Point(22, 665);
+            this.txtGheDaChon.Location = new System.Drawing.Point(21, 665);
             this.txtGheDaChon.Margin = new System.Windows.Forms.Padding(4);
             this.txtGheDaChon.Name = "txtGheDaChon";
             this.txtGheDaChon.Size = new System.Drawing.Size(212, 41);
@@ -371,7 +436,7 @@
             this.lblTamTinh.AutoSize = true;
             this.lblTamTinh.BackColor = System.Drawing.Color.DodgerBlue;
             this.lblTamTinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTamTinh.Location = new System.Drawing.Point(317, 595);
+            this.lblTamTinh.Location = new System.Drawing.Point(317, 594);
             this.lblTamTinh.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTamTinh.Name = "lblTamTinh";
             this.lblTamTinh.Size = new System.Drawing.Size(137, 36);
@@ -383,7 +448,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.DodgerBlue;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(22, 595);
+            this.label1.Location = new System.Drawing.Point(21, 594);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(197, 36);
@@ -419,7 +484,7 @@
             this.panel2.Controls.Add(this.btnB02);
             this.panel2.Controls.Add(this.btnB01);
             this.panel2.Controls.Add(this.lblTang2);
-            this.panel2.Location = new System.Drawing.Point(374, 66);
+            this.panel2.Location = new System.Drawing.Point(373, 66);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(333, 498);
@@ -634,172 +699,172 @@
             this.lblTang2.TabIndex = 1;
             this.lblTang2.Text = "Tầng 2";
             // 
-            // btnA18
+            // A18
             // 
-            this.btnA18.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnA18.Location = new System.Drawing.Point(265, 326);
-            this.btnA18.Margin = new System.Windows.Forms.Padding(4);
-            this.btnA18.Name = "btnA18";
-            this.btnA18.Size = new System.Drawing.Size(53, 36);
-            this.btnA18.TabIndex = 19;
-            this.btnA18.Text = "A18";
-            this.btnA18.UseVisualStyleBackColor = true;
+            this.A18.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A18.Location = new System.Drawing.Point(265, 326);
+            this.A18.Margin = new System.Windows.Forms.Padding(4);
+            this.A18.Name = "A18";
+            this.A18.Size = new System.Drawing.Size(53, 36);
+            this.A18.TabIndex = 19;
+            this.A18.Text = "A18";
+            this.A18.UseVisualStyleBackColor = true;
             // 
-            // btnA17
+            // A17
             // 
-            this.btnA17.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnA17.Location = new System.Drawing.Point(143, 326);
-            this.btnA17.Margin = new System.Windows.Forms.Padding(4);
-            this.btnA17.Name = "btnA17";
-            this.btnA17.Size = new System.Drawing.Size(52, 36);
-            this.btnA17.TabIndex = 18;
-            this.btnA17.Text = "A17";
-            this.btnA17.UseVisualStyleBackColor = true;
+            this.A17.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A17.Location = new System.Drawing.Point(143, 326);
+            this.A17.Margin = new System.Windows.Forms.Padding(4);
+            this.A17.Name = "A17";
+            this.A17.Size = new System.Drawing.Size(52, 36);
+            this.A17.TabIndex = 18;
+            this.A17.Text = "A17";
+            this.A17.UseVisualStyleBackColor = true;
             // 
-            // btnA16
+            // A16
             // 
-            this.btnA16.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnA16.Location = new System.Drawing.Point(17, 326);
-            this.btnA16.Margin = new System.Windows.Forms.Padding(4);
-            this.btnA16.Name = "btnA16";
-            this.btnA16.Size = new System.Drawing.Size(53, 36);
-            this.btnA16.TabIndex = 17;
-            this.btnA16.Text = "A16";
-            this.btnA16.UseVisualStyleBackColor = true;
+            this.A16.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A16.Location = new System.Drawing.Point(17, 326);
+            this.A16.Margin = new System.Windows.Forms.Padding(4);
+            this.A16.Name = "A16";
+            this.A16.Size = new System.Drawing.Size(53, 36);
+            this.A16.TabIndex = 17;
+            this.A16.Text = "A16";
+            this.A16.UseVisualStyleBackColor = true;
             // 
-            // btnA15
+            // A15
             // 
-            this.btnA15.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnA15.Location = new System.Drawing.Point(265, 273);
-            this.btnA15.Margin = new System.Windows.Forms.Padding(4);
-            this.btnA15.Name = "btnA15";
-            this.btnA15.Size = new System.Drawing.Size(53, 36);
-            this.btnA15.TabIndex = 16;
-            this.btnA15.Text = "A15";
-            this.btnA15.UseVisualStyleBackColor = true;
+            this.A15.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A15.Location = new System.Drawing.Point(265, 273);
+            this.A15.Margin = new System.Windows.Forms.Padding(4);
+            this.A15.Name = "A15";
+            this.A15.Size = new System.Drawing.Size(53, 36);
+            this.A15.TabIndex = 16;
+            this.A15.Text = "A15";
+            this.A15.UseVisualStyleBackColor = true;
             // 
-            // btnA14
+            // A14
             // 
-            this.btnA14.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnA14.Location = new System.Drawing.Point(143, 273);
-            this.btnA14.Margin = new System.Windows.Forms.Padding(4);
-            this.btnA14.Name = "btnA14";
-            this.btnA14.Size = new System.Drawing.Size(53, 36);
-            this.btnA14.TabIndex = 15;
-            this.btnA14.Text = "A14";
-            this.btnA14.UseVisualStyleBackColor = true;
+            this.A14.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A14.Location = new System.Drawing.Point(143, 273);
+            this.A14.Margin = new System.Windows.Forms.Padding(4);
+            this.A14.Name = "A14";
+            this.A14.Size = new System.Drawing.Size(53, 36);
+            this.A14.TabIndex = 15;
+            this.A14.Text = "A14";
+            this.A14.UseVisualStyleBackColor = true;
             // 
-            // btnA13
+            // A13
             // 
-            this.btnA13.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnA13.Location = new System.Drawing.Point(17, 273);
-            this.btnA13.Margin = new System.Windows.Forms.Padding(4);
-            this.btnA13.Name = "btnA13";
-            this.btnA13.Size = new System.Drawing.Size(53, 36);
-            this.btnA13.TabIndex = 14;
-            this.btnA13.Text = "A13";
-            this.btnA13.UseVisualStyleBackColor = true;
+            this.A13.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A13.Location = new System.Drawing.Point(17, 273);
+            this.A13.Margin = new System.Windows.Forms.Padding(4);
+            this.A13.Name = "A13";
+            this.A13.Size = new System.Drawing.Size(53, 36);
+            this.A13.TabIndex = 14;
+            this.A13.Text = "A13";
+            this.A13.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.btnA24);
-            this.panel1.Controls.Add(this.btnA22);
-            this.panel1.Controls.Add(this.btnA25);
-            this.panel1.Controls.Add(this.btnA23);
-            this.panel1.Controls.Add(this.btnA21);
-            this.panel1.Controls.Add(this.btnA20);
+            this.panel1.Controls.Add(this.A24);
+            this.panel1.Controls.Add(this.A22);
+            this.panel1.Controls.Add(this.A25);
+            this.panel1.Controls.Add(this.A23);
+            this.panel1.Controls.Add(this.A21);
+            this.panel1.Controls.Add(this.A20);
             this.panel1.Controls.Add(this.btnA19);
-            this.panel1.Controls.Add(this.btnA18);
-            this.panel1.Controls.Add(this.btnA17);
-            this.panel1.Controls.Add(this.btnA16);
-            this.panel1.Controls.Add(this.btnA15);
-            this.panel1.Controls.Add(this.btnA14);
-            this.panel1.Controls.Add(this.btnA13);
-            this.panel1.Controls.Add(this.btnA12);
+            this.panel1.Controls.Add(this.A18);
+            this.panel1.Controls.Add(this.A17);
+            this.panel1.Controls.Add(this.A16);
+            this.panel1.Controls.Add(this.A15);
+            this.panel1.Controls.Add(this.A14);
+            this.panel1.Controls.Add(this.A13);
+            this.panel1.Controls.Add(this.A12);
             this.panel1.Controls.Add(this.btnA11);
-            this.panel1.Controls.Add(this.btnA10);
-            this.panel1.Controls.Add(this.btnA09);
-            this.panel1.Controls.Add(this.btnA08);
+            this.panel1.Controls.Add(this.A10);
+            this.panel1.Controls.Add(this.A09);
+            this.panel1.Controls.Add(this.A08);
             this.panel1.Controls.Add(this.btnA07);
-            this.panel1.Controls.Add(this.btnA06);
-            this.panel1.Controls.Add(this.btnA05);
-            this.panel1.Controls.Add(this.btnA04);
-            this.panel1.Controls.Add(this.btnA03);
-            this.panel1.Controls.Add(this.btnA02);
-            this.panel1.Controls.Add(this.btnA01);
+            this.panel1.Controls.Add(this.A06);
+            this.panel1.Controls.Add(this.A05);
+            this.panel1.Controls.Add(this.A04);
+            this.panel1.Controls.Add(this.A03);
+            this.panel1.Controls.Add(this.A02);
+            this.panel1.Controls.Add(this.A01);
             this.panel1.Controls.Add(this.lblTang1);
-            this.panel1.Location = new System.Drawing.Point(22, 65);
+            this.panel1.Location = new System.Drawing.Point(21, 65);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(330, 498);
             this.panel1.TabIndex = 51;
             // 
-            // btnA24
+            // A24
             // 
-            this.btnA24.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnA24.Location = new System.Drawing.Point(204, 436);
-            this.btnA24.Margin = new System.Windows.Forms.Padding(4);
-            this.btnA24.Name = "btnA24";
-            this.btnA24.Size = new System.Drawing.Size(53, 36);
-            this.btnA24.TabIndex = 27;
-            this.btnA24.Text = "A24";
-            this.btnA24.UseVisualStyleBackColor = true;
+            this.A24.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A24.Location = new System.Drawing.Point(204, 436);
+            this.A24.Margin = new System.Windows.Forms.Padding(4);
+            this.A24.Name = "A24";
+            this.A24.Size = new System.Drawing.Size(53, 36);
+            this.A24.TabIndex = 27;
+            this.A24.Text = "A24";
+            this.A24.UseVisualStyleBackColor = true;
             // 
-            // btnA22
+            // A22
             // 
-            this.btnA22.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnA22.Location = new System.Drawing.Point(78, 436);
-            this.btnA22.Margin = new System.Windows.Forms.Padding(4);
-            this.btnA22.Name = "btnA22";
-            this.btnA22.Size = new System.Drawing.Size(53, 36);
-            this.btnA22.TabIndex = 26;
-            this.btnA22.Text = "A22";
-            this.btnA22.UseVisualStyleBackColor = true;
+            this.A22.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A22.Location = new System.Drawing.Point(77, 436);
+            this.A22.Margin = new System.Windows.Forms.Padding(4);
+            this.A22.Name = "A22";
+            this.A22.Size = new System.Drawing.Size(53, 36);
+            this.A22.TabIndex = 26;
+            this.A22.Text = "A22";
+            this.A22.UseVisualStyleBackColor = true;
             // 
-            // btnA25
+            // A25
             // 
-            this.btnA25.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnA25.Location = new System.Drawing.Point(265, 436);
-            this.btnA25.Margin = new System.Windows.Forms.Padding(4);
-            this.btnA25.Name = "btnA25";
-            this.btnA25.Size = new System.Drawing.Size(53, 36);
-            this.btnA25.TabIndex = 25;
-            this.btnA25.Text = "A25";
-            this.btnA25.UseVisualStyleBackColor = true;
+            this.A25.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A25.Location = new System.Drawing.Point(265, 436);
+            this.A25.Margin = new System.Windows.Forms.Padding(4);
+            this.A25.Name = "A25";
+            this.A25.Size = new System.Drawing.Size(53, 36);
+            this.A25.TabIndex = 25;
+            this.A25.Text = "A25";
+            this.A25.UseVisualStyleBackColor = true;
             // 
-            // btnA23
+            // A23
             // 
-            this.btnA23.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnA23.Location = new System.Drawing.Point(143, 436);
-            this.btnA23.Margin = new System.Windows.Forms.Padding(4);
-            this.btnA23.Name = "btnA23";
-            this.btnA23.Size = new System.Drawing.Size(53, 36);
-            this.btnA23.TabIndex = 24;
-            this.btnA23.Text = "A23";
-            this.btnA23.UseVisualStyleBackColor = true;
+            this.A23.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A23.Location = new System.Drawing.Point(143, 436);
+            this.A23.Margin = new System.Windows.Forms.Padding(4);
+            this.A23.Name = "A23";
+            this.A23.Size = new System.Drawing.Size(53, 36);
+            this.A23.TabIndex = 24;
+            this.A23.Text = "A23";
+            this.A23.UseVisualStyleBackColor = true;
             // 
-            // btnA21
+            // A21
             // 
-            this.btnA21.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnA21.Location = new System.Drawing.Point(17, 436);
-            this.btnA21.Margin = new System.Windows.Forms.Padding(4);
-            this.btnA21.Name = "btnA21";
-            this.btnA21.Size = new System.Drawing.Size(53, 36);
-            this.btnA21.TabIndex = 23;
-            this.btnA21.Text = "A21";
-            this.btnA21.UseVisualStyleBackColor = true;
+            this.A21.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A21.Location = new System.Drawing.Point(17, 436);
+            this.A21.Margin = new System.Windows.Forms.Padding(4);
+            this.A21.Name = "A21";
+            this.A21.Size = new System.Drawing.Size(53, 36);
+            this.A21.TabIndex = 23;
+            this.A21.Text = "A21";
+            this.A21.UseVisualStyleBackColor = true;
             // 
-            // btnA20
+            // A20
             // 
-            this.btnA20.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnA20.Location = new System.Drawing.Point(265, 382);
-            this.btnA20.Margin = new System.Windows.Forms.Padding(4);
-            this.btnA20.Name = "btnA20";
-            this.btnA20.Size = new System.Drawing.Size(53, 36);
-            this.btnA20.TabIndex = 22;
-            this.btnA20.Text = "A20";
-            this.btnA20.UseVisualStyleBackColor = true;
+            this.A20.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A20.Location = new System.Drawing.Point(265, 382);
+            this.A20.Margin = new System.Windows.Forms.Padding(4);
+            this.A20.Name = "A20";
+            this.A20.Size = new System.Drawing.Size(53, 36);
+            this.A20.TabIndex = 22;
+            this.A20.Text = "A20";
+            this.A20.UseVisualStyleBackColor = true;
             // 
             // btnA19
             // 
@@ -812,16 +877,16 @@
             this.btnA19.Text = "A19";
             this.btnA19.UseVisualStyleBackColor = true;
             // 
-            // btnA12
+            // A12
             // 
-            this.btnA12.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnA12.Location = new System.Drawing.Point(265, 214);
-            this.btnA12.Margin = new System.Windows.Forms.Padding(4);
-            this.btnA12.Name = "btnA12";
-            this.btnA12.Size = new System.Drawing.Size(53, 36);
-            this.btnA12.TabIndex = 13;
-            this.btnA12.Text = "A12";
-            this.btnA12.UseVisualStyleBackColor = true;
+            this.A12.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A12.Location = new System.Drawing.Point(265, 214);
+            this.A12.Margin = new System.Windows.Forms.Padding(4);
+            this.A12.Name = "A12";
+            this.A12.Size = new System.Drawing.Size(53, 36);
+            this.A12.TabIndex = 13;
+            this.A12.Text = "A12";
+            this.A12.UseVisualStyleBackColor = true;
             // 
             // btnA11
             // 
@@ -834,38 +899,38 @@
             this.btnA11.Text = "A11";
             this.btnA11.UseVisualStyleBackColor = true;
             // 
-            // btnA10
+            // A10
             // 
-            this.btnA10.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnA10.Location = new System.Drawing.Point(17, 214);
-            this.btnA10.Margin = new System.Windows.Forms.Padding(4);
-            this.btnA10.Name = "btnA10";
-            this.btnA10.Size = new System.Drawing.Size(53, 36);
-            this.btnA10.TabIndex = 11;
-            this.btnA10.Text = "A10";
-            this.btnA10.UseVisualStyleBackColor = true;
+            this.A10.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A10.Location = new System.Drawing.Point(17, 214);
+            this.A10.Margin = new System.Windows.Forms.Padding(4);
+            this.A10.Name = "A10";
+            this.A10.Size = new System.Drawing.Size(53, 36);
+            this.A10.TabIndex = 11;
+            this.A10.Text = "A10";
+            this.A10.UseVisualStyleBackColor = true;
             // 
-            // btnA09
+            // A09
             // 
-            this.btnA09.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnA09.Location = new System.Drawing.Point(265, 159);
-            this.btnA09.Margin = new System.Windows.Forms.Padding(4);
-            this.btnA09.Name = "btnA09";
-            this.btnA09.Size = new System.Drawing.Size(53, 36);
-            this.btnA09.TabIndex = 10;
-            this.btnA09.Text = "A09";
-            this.btnA09.UseVisualStyleBackColor = true;
+            this.A09.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A09.Location = new System.Drawing.Point(265, 159);
+            this.A09.Margin = new System.Windows.Forms.Padding(4);
+            this.A09.Name = "A09";
+            this.A09.Size = new System.Drawing.Size(53, 36);
+            this.A09.TabIndex = 10;
+            this.A09.Text = "A09";
+            this.A09.UseVisualStyleBackColor = true;
             // 
-            // btnA08
+            // A08
             // 
-            this.btnA08.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnA08.Location = new System.Drawing.Point(143, 159);
-            this.btnA08.Margin = new System.Windows.Forms.Padding(4);
-            this.btnA08.Name = "btnA08";
-            this.btnA08.Size = new System.Drawing.Size(53, 36);
-            this.btnA08.TabIndex = 9;
-            this.btnA08.Text = "A08";
-            this.btnA08.UseVisualStyleBackColor = true;
+            this.A08.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A08.Location = new System.Drawing.Point(143, 159);
+            this.A08.Margin = new System.Windows.Forms.Padding(4);
+            this.A08.Name = "A08";
+            this.A08.Size = new System.Drawing.Size(53, 36);
+            this.A08.TabIndex = 9;
+            this.A08.Text = "A08";
+            this.A08.UseVisualStyleBackColor = true;
             // 
             // btnA07
             // 
@@ -878,71 +943,71 @@
             this.btnA07.Text = "A07";
             this.btnA07.UseVisualStyleBackColor = true;
             // 
-            // btnA06
+            // A06
             // 
-            this.btnA06.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnA06.Location = new System.Drawing.Point(265, 102);
-            this.btnA06.Margin = new System.Windows.Forms.Padding(4);
-            this.btnA06.Name = "btnA06";
-            this.btnA06.Size = new System.Drawing.Size(53, 33);
-            this.btnA06.TabIndex = 7;
-            this.btnA06.Text = "A06";
-            this.btnA06.UseVisualStyleBackColor = true;
+            this.A06.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A06.Location = new System.Drawing.Point(265, 102);
+            this.A06.Margin = new System.Windows.Forms.Padding(4);
+            this.A06.Name = "A06";
+            this.A06.Size = new System.Drawing.Size(53, 33);
+            this.A06.TabIndex = 7;
+            this.A06.Text = "A06";
+            this.A06.UseVisualStyleBackColor = true;
             // 
-            // btnA05
+            // A05
             // 
-            this.btnA05.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnA05.Location = new System.Drawing.Point(143, 102);
-            this.btnA05.Margin = new System.Windows.Forms.Padding(4);
-            this.btnA05.Name = "btnA05";
-            this.btnA05.Size = new System.Drawing.Size(53, 33);
-            this.btnA05.TabIndex = 6;
-            this.btnA05.Text = "A05";
-            this.btnA05.UseVisualStyleBackColor = true;
+            this.A05.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A05.Location = new System.Drawing.Point(143, 102);
+            this.A05.Margin = new System.Windows.Forms.Padding(4);
+            this.A05.Name = "A05";
+            this.A05.Size = new System.Drawing.Size(53, 33);
+            this.A05.TabIndex = 6;
+            this.A05.Text = "A05";
+            this.A05.UseVisualStyleBackColor = true;
             // 
-            // btnA04
+            // A04
             // 
-            this.btnA04.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnA04.Location = new System.Drawing.Point(17, 102);
-            this.btnA04.Margin = new System.Windows.Forms.Padding(4);
-            this.btnA04.Name = "btnA04";
-            this.btnA04.Size = new System.Drawing.Size(53, 33);
-            this.btnA04.TabIndex = 5;
-            this.btnA04.Text = "A04";
-            this.btnA04.UseVisualStyleBackColor = true;
+            this.A04.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A04.Location = new System.Drawing.Point(17, 102);
+            this.A04.Margin = new System.Windows.Forms.Padding(4);
+            this.A04.Name = "A04";
+            this.A04.Size = new System.Drawing.Size(53, 33);
+            this.A04.TabIndex = 5;
+            this.A04.Text = "A04";
+            this.A04.UseVisualStyleBackColor = true;
             // 
-            // btnA03
+            // A03
             // 
-            this.btnA03.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnA03.Location = new System.Drawing.Point(265, 47);
-            this.btnA03.Margin = new System.Windows.Forms.Padding(4);
-            this.btnA03.Name = "btnA03";
-            this.btnA03.Size = new System.Drawing.Size(53, 33);
-            this.btnA03.TabIndex = 4;
-            this.btnA03.Text = "A03";
-            this.btnA03.UseVisualStyleBackColor = true;
+            this.A03.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A03.Location = new System.Drawing.Point(265, 47);
+            this.A03.Margin = new System.Windows.Forms.Padding(4);
+            this.A03.Name = "A03";
+            this.A03.Size = new System.Drawing.Size(53, 33);
+            this.A03.TabIndex = 4;
+            this.A03.Text = "A03";
+            this.A03.UseVisualStyleBackColor = true;
             // 
-            // btnA02
+            // A02
             // 
-            this.btnA02.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnA02.Location = new System.Drawing.Point(143, 47);
-            this.btnA02.Margin = new System.Windows.Forms.Padding(4);
-            this.btnA02.Name = "btnA02";
-            this.btnA02.Size = new System.Drawing.Size(53, 33);
-            this.btnA02.TabIndex = 3;
-            this.btnA02.Text = "A02";
-            this.btnA02.UseVisualStyleBackColor = true;
+            this.A02.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A02.Location = new System.Drawing.Point(143, 47);
+            this.A02.Margin = new System.Windows.Forms.Padding(4);
+            this.A02.Name = "A02";
+            this.A02.Size = new System.Drawing.Size(53, 33);
+            this.A02.TabIndex = 3;
+            this.A02.Text = "A02";
+            this.A02.UseVisualStyleBackColor = true;
             // 
-            // btnA01
+            // A01
             // 
-            this.btnA01.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnA01.Location = new System.Drawing.Point(17, 47);
-            this.btnA01.Margin = new System.Windows.Forms.Padding(4);
-            this.btnA01.Name = "btnA01";
-            this.btnA01.Size = new System.Drawing.Size(53, 33);
-            this.btnA01.TabIndex = 2;
-            this.btnA01.Text = "A01";
-            this.btnA01.UseVisualStyleBackColor = true;
+            this.A01.Font = new System.Drawing.Font("Montserrat Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A01.Location = new System.Drawing.Point(17, 47);
+            this.A01.Margin = new System.Windows.Forms.Padding(4);
+            this.A01.Name = "A01";
+            this.A01.Size = new System.Drawing.Size(53, 33);
+            this.A01.TabIndex = 2;
+            this.A01.Text = "A01";
+            this.A01.UseVisualStyleBackColor = true;
             // 
             // lblHeader
             // 
@@ -956,11 +1021,46 @@
             this.lblHeader.TabIndex = 50;
             this.lblHeader.Text = "Sơ đồ ghế";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(1077, 70);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(48, 32);
+            this.label2.TabIndex = 72;
+            this.label2.Text = "=>";
+            // 
+            // comboBox_Start
+            // 
+            this.comboBox_Start.Font = new System.Drawing.Font("Montserrat Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox_Start.FormattingEnabled = true;
+            this.comboBox_Start.Location = new System.Drawing.Point(908, 70);
+            this.comboBox_Start.Margin = new System.Windows.Forms.Padding(4);
+            this.comboBox_Start.Name = "comboBox_Start";
+            this.comboBox_Start.Size = new System.Drawing.Size(160, 36);
+            this.comboBox_Start.TabIndex = 73;
+            this.comboBox_Start.TextChanged += new System.EventHandler(this.comboBox_Start_TextChanged);
+            // 
+            // comboBox_End
+            // 
+            this.comboBox_End.Font = new System.Drawing.Font("Montserrat Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox_End.FormattingEnabled = true;
+            this.comboBox_End.Location = new System.Drawing.Point(1149, 70);
+            this.comboBox_End.Margin = new System.Windows.Forms.Padding(4);
+            this.comboBox_End.Name = "comboBox_End";
+            this.comboBox_End.Size = new System.Drawing.Size(168, 36);
+            this.comboBox_End.TabIndex = 74;
+            // 
             // UC_DatVe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.comboBox_End);
+            this.Controls.Add(this.comboBox_Start);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.dateTimePicker_StarDate);
             this.Controls.Add(this.Thoat);
             this.Controls.Add(this.btnThanhToan);
             this.Controls.Add(this.panel3);
@@ -972,7 +1072,6 @@
             this.Controls.Add(this.txtHoTen);
             this.Controls.Add(this.lblHoTen);
             this.Controls.Add(this.lblNgayDi);
-            this.Controls.Add(this.txtTuyen);
             this.Controls.Add(this.lblTuyen);
             this.Controls.Add(this.txtTamTinh);
             this.Controls.Add(this.txtGheDaChon);
@@ -981,9 +1080,12 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblHeader);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "UC_DatVe";
             this.Size = new System.Drawing.Size(1475, 866);
             this.Load += new System.EventHandler(this.UC_DatVe_Load);
+            this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_TimXe)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -1003,7 +1105,7 @@
         private System.Windows.Forms.Button btnB21;
         private System.Windows.Forms.Button btnB20;
         private System.Windows.Forms.Button btnB19;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker_StarDate;
         private System.Windows.Forms.Button Thoat;
         private System.Windows.Forms.Button btnThanhToan;
         private System.Windows.Forms.Panel panel3;
@@ -1015,7 +1117,6 @@
         private System.Windows.Forms.TextBox txtHoTen;
         private System.Windows.Forms.Label lblHoTen;
         private System.Windows.Forms.Label lblNgayDi;
-        private System.Windows.Forms.TextBox txtTuyen;
         private System.Windows.Forms.Label lblTuyen;
         private System.Windows.Forms.TextBox txtTamTinh;
         private System.Windows.Forms.TextBox txtGheDaChon;
@@ -1041,32 +1142,41 @@
         private System.Windows.Forms.Button btnB02;
         private System.Windows.Forms.Button btnB01;
         private System.Windows.Forms.Label lblTang2;
-        private System.Windows.Forms.Button btnA18;
-        private System.Windows.Forms.Button btnA17;
-        private System.Windows.Forms.Button btnA16;
-        private System.Windows.Forms.Button btnA15;
-        private System.Windows.Forms.Button btnA14;
-        private System.Windows.Forms.Button btnA13;
+        private System.Windows.Forms.Button A18;
+        private System.Windows.Forms.Button A17;
+        private System.Windows.Forms.Button A16;
+        private System.Windows.Forms.Button A15;
+        private System.Windows.Forms.Button A14;
+        private System.Windows.Forms.Button A13;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button btnA24;
-        private System.Windows.Forms.Button btnA22;
-        private System.Windows.Forms.Button btnA25;
-        private System.Windows.Forms.Button btnA23;
-        private System.Windows.Forms.Button btnA21;
-        private System.Windows.Forms.Button btnA20;
+        private System.Windows.Forms.Button A24;
+        private System.Windows.Forms.Button A22;
+        private System.Windows.Forms.Button A25;
+        private System.Windows.Forms.Button A23;
+        private System.Windows.Forms.Button A21;
+        private System.Windows.Forms.Button A20;
         private System.Windows.Forms.Button btnA19;
-        private System.Windows.Forms.Button btnA12;
+        private System.Windows.Forms.Button A12;
         private System.Windows.Forms.Button btnA11;
-        private System.Windows.Forms.Button btnA10;
-        private System.Windows.Forms.Button btnA09;
-        private System.Windows.Forms.Button btnA08;
+        private System.Windows.Forms.Button A10;
+        private System.Windows.Forms.Button A09;
+        private System.Windows.Forms.Button A08;
         private System.Windows.Forms.Button btnA07;
-        private System.Windows.Forms.Button btnA06;
-        private System.Windows.Forms.Button btnA05;
-        private System.Windows.Forms.Button btnA04;
-        private System.Windows.Forms.Button btnA03;
-        private System.Windows.Forms.Button btnA02;
-        private System.Windows.Forms.Button btnA01;
+        private System.Windows.Forms.Button A06;
+        private System.Windows.Forms.Button A05;
+        private System.Windows.Forms.Button A04;
+        private System.Windows.Forms.Button A03;
+        private System.Windows.Forms.Button A02;
+        private System.Windows.Forms.Button A01;
         private System.Windows.Forms.Label lblHeader;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox comboBox_Start;
+        private System.Windows.Forms.ComboBox comboBox_End;
+        private System.Windows.Forms.DataGridView dataGridView_TimXe;
+        private System.Windows.Forms.DataGridViewTextBoxColumn BusNumBer;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TotalSeat;
+        private System.Windows.Forms.DataGridViewTextBoxColumn BusType;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DepartureTime;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ArrivalTime;
     }
 }
