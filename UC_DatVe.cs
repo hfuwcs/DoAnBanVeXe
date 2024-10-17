@@ -14,7 +14,7 @@ namespace DoAnCuoiKy
 {
     public partial class UC_DatVe : UserControl
     {
-        ADO_Conn_SQL db = new ADO_Conn_SQL();
+        BanVeXe db = new BanVeXe();
         public UC_DatVe()
         {
             InitializeComponent();
@@ -41,7 +41,7 @@ namespace DoAnCuoiKy
         private void UC_DatVe_Load(object sender, EventArgs e)
         {
             //START: LOAD database cho Tuyen
-            ADO_Conn_SQL db1 = new ADO_Conn_SQL();
+            BanVeXe db1 = new BanVeXe();
             string sqls1 = "select StartLocation from Route group by StartLocation";
             string tableName1 = "Route";
             db1.GetDataAdapter(sqls1, tableName1);
@@ -50,7 +50,7 @@ namespace DoAnCuoiKy
             comboBox_Start.ValueMember = "StartLocation";
             comboBox_Start.DisplayMember = "StartLocation";
 
-            ADO_Conn_SQL db2 = new ADO_Conn_SQL();
+            BanVeXe db2 = new BanVeXe();
             string sqls2 = "select EndLocation from Route group by EndLocation";
             string tableName2 = "Route";
             db2.GetDataAdapter(sqls2, tableName2);

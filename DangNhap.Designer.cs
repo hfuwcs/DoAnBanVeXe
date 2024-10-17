@@ -41,7 +41,7 @@
             // 
             this.lbl_Email.AutoSize = true;
             this.lbl_Email.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Email.Location = new System.Drawing.Point(79, 107);
+            this.lbl_Email.Location = new System.Drawing.Point(49, 105);
             this.lbl_Email.Name = "lbl_Email";
             this.lbl_Email.Size = new System.Drawing.Size(72, 25);
             this.lbl_Email.TabIndex = 0;
@@ -50,7 +50,8 @@
             // txtBox_Email
             // 
             this.txtBox_Email.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBox_Email.Location = new System.Drawing.Point(206, 104);
+            this.txtBox_Email.Location = new System.Drawing.Point(205, 103);
+            this.txtBox_Email.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtBox_Email.Name = "txtBox_Email";
             this.txtBox_Email.Size = new System.Drawing.Size(279, 30);
             this.txtBox_Email.TabIndex = 1;
@@ -59,7 +60,7 @@
             // 
             this.lbl_Password.AutoSize = true;
             this.lbl_Password.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Password.Location = new System.Drawing.Point(79, 154);
+            this.lbl_Password.Location = new System.Drawing.Point(49, 151);
             this.lbl_Password.Name = "lbl_Password";
             this.lbl_Password.Size = new System.Drawing.Size(113, 25);
             this.lbl_Password.TabIndex = 2;
@@ -68,11 +69,11 @@
             // txtBox_Pass
             // 
             this.txtBox_Pass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBox_Pass.Location = new System.Drawing.Point(206, 151);
+            this.txtBox_Pass.Location = new System.Drawing.Point(205, 151);
+            this.txtBox_Pass.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtBox_Pass.Name = "txtBox_Pass";
             this.txtBox_Pass.Size = new System.Drawing.Size(279, 30);
             this.txtBox_Pass.TabIndex = 3;
-            this.txtBox_Pass.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             this.txtBox_Pass.Enter += new System.EventHandler(this.txtBox_Pass_Enter);
             this.txtBox_Pass.Leave += new System.EventHandler(this.txtBox_Pass_Leave);
             // 
@@ -80,6 +81,7 @@
             // 
             this.btn_DangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_DangNhap.Location = new System.Drawing.Point(84, 244);
+            this.btn_DangNhap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_DangNhap.Name = "btn_DangNhap";
             this.btn_DangNhap.Size = new System.Drawing.Size(213, 43);
             this.btn_DangNhap.TabIndex = 4;
@@ -91,6 +93,7 @@
             // 
             this.btn_ThoatDangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ThoatDangNhap.Location = new System.Drawing.Point(303, 244);
+            this.btn_ThoatDangNhap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_ThoatDangNhap.Name = "btn_ThoatDangNhap";
             this.btn_ThoatDangNhap.Size = new System.Drawing.Size(213, 43);
             this.btn_ThoatDangNhap.TabIndex = 5;
@@ -102,7 +105,7 @@
             // 
             this.linkLabel_DoiMatKhau.AutoSize = true;
             this.linkLabel_DoiMatKhau.Font = new System.Drawing.Font("Montserrat", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel_DoiMatKhau.Location = new System.Drawing.Point(359, 195);
+            this.linkLabel_DoiMatKhau.Location = new System.Drawing.Point(359, 194);
             this.linkLabel_DoiMatKhau.Name = "linkLabel_DoiMatKhau";
             this.linkLabel_DoiMatKhau.Size = new System.Drawing.Size(126, 23);
             this.linkLabel_DoiMatKhau.TabIndex = 6;
@@ -123,10 +126,10 @@
             this.Controls.Add(this.lbl_Password);
             this.Controls.Add(this.txtBox_Email);
             this.Controls.Add(this.lbl_Email);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "DangNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DangNhap";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.DangNhap_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

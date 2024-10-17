@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DoAnCuoiKy.BusinessClass;
+using MyLibrary;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,20 +15,17 @@ namespace DoAnCuoiKy
 {
     public partial class DangNhap : Form
     {
-        public DangNhap instance;
+        //public DangNhap instance;
+        BanVeXe obj = new BanVeXe();
+        public bool isLogin = false;
         public TextBox tb1;
         public TextBox tb2;
         public DangNhap()
         {
             InitializeComponent();
-            instance = this;
+            //instance = this;
             tb1 = txtBox_Email;
             tb2 = txtBox_Pass;
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void txtBox_Pass_Enter(object sender, EventArgs e)
@@ -54,15 +53,27 @@ namespace DoAnCuoiKy
 
         private void btn_DangNhap_Click(object sender, EventArgs e)
         {
-            Point point = new Point(56, 468);
-            
-            BanVeXe.instance.button_QuanLyChuyen.Visible = true;
-            BanVeXe.instance.button_Thoat.Location = point;
+            Account account = new Account() { UserName=txtBox_Email.Text.ToString(), Password=txtBox_Pass.Text.ToString()};
+            if (obj.CheckUser(account))
+            {
+                isLogin = true;
+                MainForm mainForm = new MainForm();
+                mainForm.Show();
+                this.Hide();
+                mainForm.DangXuat += MainForm_DangXuat;
+            }
+            else
+            {
+                MessageBox.Show("u suck");
+                txtBox_Email.Focus();
+            }
         }
 
-        private void DangNhap_FormClosed(object sender, FormClosedEventArgs e)
+        private void MainForm_DangXuat(object sender, EventArgs e)
         {
-
+            (sender as MainForm).isExit = false;
+            (sender as MainForm).Close();
+            this.Show(); 
         }
 
         private void btn_ThoatDangNhap_Click(object sender, EventArgs e)
@@ -72,8 +83,15 @@ namespace DoAnCuoiKy
 
         private void linkLabel_DoiMatKhau_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            DoiMatKhau doiMatKhau = new DoiMatKhau();
-            doiMatKhau.Show();
+            if (isLogin)
+            {
+                DoiMatKhau doiMatKhau = new DoiMatKhau();
+                doiMatKhau.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Bạn cần đăng nhập trước khi đổi mật khẩu","Lỗi",MessageBoxButtons.OK,MessageBoxIcon.Error);
+            }
         }
     }
 }

@@ -3,19 +3,29 @@
   "WorkspaceRootPath": "D:\\HK5\\dotNET\\DoAnCuoiKy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85D31B9B-FEB1-4E62-B311-CE85B67B1775}|DoAnCuoiKy.csproj|D:\\HK5\\dotNET\\DoAnCuoiKy\\uc_datve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85D31B9B-FEB1-4E62-B311-CE85B67B1775}|DoAnCuoiKy.csproj|solutionrelative:uc_datve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85D31B9B-FEB1-4E62-B311-CE85B67B1775}|DoAnCuoiKy.csproj|d:\\hk5\\dotnet\\doancuoiky\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85D31B9B-FEB1-4E62-B311-CE85B67B1775}|DoAnCuoiKy.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85D31B9B-FEB1-4E62-B311-CE85B67B1775}|DoAnCuoiKy.csproj|D:\\HK5\\dotNET\\DoAnCuoiKy\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85D31B9B-FEB1-4E62-B311-CE85B67B1775}|DoAnCuoiKy.csproj|solutionrelative:dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E53A555-935D-4702-A14F-AD9E55F10A10}|..\\MyLibrary\\MyLibrary.csproj|d:\\hk5\\dotnet\\mylibrary\\mylib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85D31B9B-FEB1-4E62-B311-CE85B67B1775}|DoAnCuoiKy.csproj|D:\\HK5\\dotNET\\DoAnCuoiKy\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{85D31B9B-FEB1-4E62-B311-CE85B67B1775}|DoAnCuoiKy.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5E53A555-935D-4702-A14F-AD9E55F10A10}|..\\MyLibrary\\MyLibrary.csproj|d:\\hk5\\dotnet\\mylibrary\\businessclass\\listaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85D31B9B-FEB1-4E62-B311-CE85B67B1775}|DoAnCuoiKy.csproj|d:\\hk5\\dotnet\\doancuoiky\\uc_datve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{85D31B9B-FEB1-4E62-B311-CE85B67B1775}|DoAnCuoiKy.csproj|solutionrelative:uc_datve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5E53A555-935D-4702-A14F-AD9E55F10A10}|..\\MyLibrary\\MyLibrary.csproj|d:\\hk5\\dotnet\\mylibrary\\businessclass\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85D31B9B-FEB1-4E62-B311-CE85B67B1775}|DoAnCuoiKy.csproj|d:\\hk5\\dotnet\\doancuoiky\\uc_datve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85D31B9B-FEB1-4E62-B311-CE85B67B1775}|DoAnCuoiKy.csproj|solutionrelative:uc_datve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85D31B9B-FEB1-4E62-B311-CE85B67B1775}|DoAnCuoiKy.csproj|d:\\hk5\\dotnet\\doancuoiky\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{85D31B9B-FEB1-4E62-B311-CE85B67B1775}|DoAnCuoiKy.csproj|solutionrelative:dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,7 +35,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -33,53 +43,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MyLib.cs",
-              "DocumentMoniker": "D:\\HK5\\dotNET\\MyLibrary\\MyLib.cs",
-              "RelativeDocumentMoniker": "..\\MyLibrary\\MyLib.cs",
-              "ToolTip": "D:\\HK5\\dotNET\\MyLibrary\\MyLib.cs",
-              "RelativeToolTip": "..\\MyLibrary\\MyLib.cs",
-              "ViewState": "AQIAAG0AAAAAAAAAAAAAAF0AAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T06:22:11.035Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "UC_DatVe.cs",
               "DocumentMoniker": "D:\\HK5\\dotNET\\DoAnCuoiKy\\UC_DatVe.cs",
               "RelativeDocumentMoniker": "UC_DatVe.cs",
               "ToolTip": "D:\\HK5\\dotNET\\DoAnCuoiKy\\UC_DatVe.cs",
               "RelativeToolTip": "UC_DatVe.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAYwEsAAAAnAAAA",
+              "ViewState": "AQIAACgAAAAAAAAAAIA/wDQAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T05:40:33.468Z",
+              "WhenOpened": "2024-10-17T11:27:26.309Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\HK5\\dotNET\\DoAnCuoiKy\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\HK5\\dotNET\\DoAnCuoiKy\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
+              "DocumentIndex": 6,
+              "Title": "DangNhap.cs [Design]",
+              "DocumentMoniker": "D:\\HK5\\dotNET\\DoAnCuoiKy\\DangNhap.cs",
+              "RelativeDocumentMoniker": "DangNhap.cs",
+              "ToolTip": "D:\\HK5\\dotNET\\DoAnCuoiKy\\DangNhap.cs [Design]",
+              "RelativeToolTip": "DangNhap.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T14:23:20.529Z",
+              "WhenOpened": "2024-10-17T11:26:08.45Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UC_DatVe.cs [Design]",
-              "DocumentMoniker": "D:\\HK5\\dotNET\\DoAnCuoiKy\\UC_DatVe.cs",
-              "RelativeDocumentMoniker": "UC_DatVe.cs",
-              "ToolTip": "D:\\HK5\\dotNET\\DoAnCuoiKy\\UC_DatVe.cs [Design]",
-              "RelativeToolTip": "UC_DatVe.cs [Design]",
+              "Title": "ListAccount.cs",
+              "DocumentMoniker": "D:\\HK5\\dotNET\\MyLibrary\\BusinessClass\\ListAccount.cs",
+              "RelativeDocumentMoniker": "..\\MyLibrary\\BusinessClass\\ListAccount.cs",
+              "ToolTip": "D:\\HK5\\dotNET\\MyLibrary\\BusinessClass\\ListAccount.cs",
+              "RelativeToolTip": "..\\MyLibrary\\BusinessClass\\ListAccount.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAIwBgAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T14:21:38.024Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-17T11:14:38.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\HK5\\dotNET\\MyLibrary\\BusinessClass\\Account.cs",
+              "RelativeDocumentMoniker": "..\\MyLibrary\\BusinessClass\\Account.cs",
+              "ToolTip": "D:\\HK5\\dotNET\\MyLibrary\\BusinessClass\\Account.cs",
+              "RelativeToolTip": "..\\MyLibrary\\BusinessClass\\Account.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T11:02:31.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyLib.cs",
+              "DocumentMoniker": "D:\\HK5\\dotNET\\MyLibrary\\MyLib.cs",
+              "RelativeDocumentMoniker": "..\\MyLibrary\\MyLib.cs",
+              "ToolTip": "D:\\HK5\\dotNET\\MyLibrary\\MyLib.cs",
+              "RelativeToolTip": "..\\MyLibrary\\MyLib.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAUwF4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T10:58:04.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\HK5\\dotNET\\DoAnCuoiKy\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "D:\\HK5\\dotNET\\DoAnCuoiKy\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAiwCQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T05:39:26.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DangNhap.cs",
+              "DocumentMoniker": "D:\\HK5\\dotNET\\DoAnCuoiKy\\DangNhap.cs",
+              "RelativeDocumentMoniker": "DangNhap.cs",
+              "ToolTip": "D:\\HK5\\dotNET\\DoAnCuoiKy\\DangNhap.cs",
+              "RelativeToolTip": "DangNhap.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAqwEUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T06:27:54.38Z",
+              "EditorCaption": ""
             }
           ]
         }
