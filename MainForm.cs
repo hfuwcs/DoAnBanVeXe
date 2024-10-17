@@ -15,9 +15,10 @@ namespace DoAnCuoiKy
     public partial class MainForm : Form
     {
         MainForm ths;
-        BanVeXe db = new BanVeXe();
+        BanVeXe obj = new BanVeXe();//Khai báo obj để xử dụng các method trong MyLibrary
         public Button button_Thoat;
         public Button button_QuanLyChuyen;
+        public Label lbl_Name;
         public bool isExit = true;
         public MainForm()
         {
@@ -25,6 +26,7 @@ namespace DoAnCuoiKy
             //instance = this;
             button_Thoat = btn_DoanhThu;
             button_QuanLyChuyen = btn_QuanLyChuyen;
+            lbl_Name = label_Name;
         }
         private void AddUserControl(UserControl userControl)
         {
@@ -81,7 +83,13 @@ namespace DoAnCuoiKy
 
         private void button1_Click(object sender, EventArgs e)
         {
-            List<Account> accounts = db.GetListAccount();
+            int total = obj.GetIncomeTest("09/10/2024" , "10/10/2024", "TP HCM", "Da Nang");
+        }
+
+        private void btn_DoanhThu_Click(object sender, EventArgs e)
+        {
+            UC_DoangThu uC_DoangThu = new UC_DoangThu();
+            AddUserControl(uC_DoangThu);
         }
     }
 }

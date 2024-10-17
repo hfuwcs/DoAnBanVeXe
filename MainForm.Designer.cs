@@ -30,7 +30,6 @@
         {
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.panel_Sidebar = new System.Windows.Forms.Panel();
-            this.btn_DangNhap = new System.Windows.Forms.Button();
             this.btn_DangXuat = new System.Windows.Forms.Button();
             this.btn_DoanhThu = new System.Windows.Forms.Button();
             this.btn_QuanLyTaiKhoan = new System.Windows.Forms.Button();
@@ -39,11 +38,12 @@
             this.btn_BanVe = new System.Windows.Forms.Button();
             this.btn_QuanLyChuyen = new System.Windows.Forms.Button();
             this.panelContainer = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Exit_ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
-            this.button1 = new System.Windows.Forms.Button();
+            this.label_Name = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -75,7 +75,6 @@
             // 
             // panel_Sidebar
             // 
-            this.panel_Sidebar.Controls.Add(this.btn_DangNhap);
             this.panel_Sidebar.Controls.Add(this.btn_DangXuat);
             this.panel_Sidebar.Controls.Add(this.btn_DoanhThu);
             this.panel_Sidebar.Controls.Add(this.btn_QuanLyTaiKhoan);
@@ -89,21 +88,10 @@
             this.panel_Sidebar.Size = new System.Drawing.Size(220, 742);
             this.panel_Sidebar.TabIndex = 0;
             // 
-            // btn_DangNhap
-            // 
-            this.btn_DangNhap.Font = new System.Drawing.Font("Montserrat", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_DangNhap.Location = new System.Drawing.Point(12, 120);
-            this.btn_DangNhap.Name = "btn_DangNhap";
-            this.btn_DangNhap.Size = new System.Drawing.Size(195, 72);
-            this.btn_DangNhap.TabIndex = 30;
-            this.btn_DangNhap.Text = "Đăng Nhập";
-            this.btn_DangNhap.UseVisualStyleBackColor = true;
-            this.btn_DangNhap.Click += new System.EventHandler(this.btn_DangNhap_Click);
-            // 
             // btn_DangXuat
             // 
             this.btn_DangXuat.Font = new System.Drawing.Font("Montserrat", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_DangXuat.Location = new System.Drawing.Point(12, 646);
+            this.btn_DangXuat.Location = new System.Drawing.Point(12, 568);
             this.btn_DangXuat.Name = "btn_DangXuat";
             this.btn_DangXuat.Size = new System.Drawing.Size(195, 57);
             this.btn_DangXuat.TabIndex = 33;
@@ -114,17 +102,18 @@
             // btn_DoanhThu
             // 
             this.btn_DoanhThu.Font = new System.Drawing.Font("Montserrat", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_DoanhThu.Location = new System.Drawing.Point(12, 566);
+            this.btn_DoanhThu.Location = new System.Drawing.Point(12, 488);
             this.btn_DoanhThu.Name = "btn_DoanhThu";
             this.btn_DoanhThu.Size = new System.Drawing.Size(195, 74);
             this.btn_DoanhThu.TabIndex = 29;
             this.btn_DoanhThu.Text = "Doanh thu";
             this.btn_DoanhThu.UseVisualStyleBackColor = true;
+            this.btn_DoanhThu.Click += new System.EventHandler(this.btn_DoanhThu_Click);
             // 
             // btn_QuanLyTaiKhoan
             // 
             this.btn_QuanLyTaiKhoan.Font = new System.Drawing.Font("Montserrat", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_QuanLyTaiKhoan.Location = new System.Drawing.Point(12, 464);
+            this.btn_QuanLyTaiKhoan.Location = new System.Drawing.Point(12, 386);
             this.btn_QuanLyTaiKhoan.Name = "btn_QuanLyTaiKhoan";
             this.btn_QuanLyTaiKhoan.Size = new System.Drawing.Size(195, 96);
             this.btn_QuanLyTaiKhoan.TabIndex = 32;
@@ -145,7 +134,7 @@
             // btn_TraCuuVe
             // 
             this.btn_TraCuuVe.Font = new System.Drawing.Font("Montserrat", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_TraCuuVe.Location = new System.Drawing.Point(12, 281);
+            this.btn_TraCuuVe.Location = new System.Drawing.Point(12, 203);
             this.btn_TraCuuVe.Name = "btn_TraCuuVe";
             this.btn_TraCuuVe.Size = new System.Drawing.Size(195, 65);
             this.btn_TraCuuVe.TabIndex = 31;
@@ -155,7 +144,7 @@
             // btn_BanVe
             // 
             this.btn_BanVe.Font = new System.Drawing.Font("Montserrat", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_BanVe.Location = new System.Drawing.Point(12, 198);
+            this.btn_BanVe.Location = new System.Drawing.Point(12, 120);
             this.btn_BanVe.Name = "btn_BanVe";
             this.btn_BanVe.Size = new System.Drawing.Size(195, 65);
             this.btn_BanVe.TabIndex = 27;
@@ -166,7 +155,7 @@
             // btn_QuanLyChuyen
             // 
             this.btn_QuanLyChuyen.Font = new System.Drawing.Font("Montserrat", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_QuanLyChuyen.Location = new System.Drawing.Point(12, 352);
+            this.btn_QuanLyChuyen.Location = new System.Drawing.Point(12, 274);
             this.btn_QuanLyChuyen.Name = "btn_QuanLyChuyen";
             this.btn_QuanLyChuyen.Size = new System.Drawing.Size(195, 96);
             this.btn_QuanLyChuyen.TabIndex = 28;
@@ -175,12 +164,24 @@
             // 
             // panelContainer
             // 
+            this.panelContainer.Controls.Add(this.label_Name);
             this.panelContainer.Controls.Add(this.button1);
             this.panelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelContainer.Location = new System.Drawing.Point(0, 0);
             this.panelContainer.Name = "panelContainer";
             this.panelContainer.Size = new System.Drawing.Size(1325, 742);
             this.panelContainer.TabIndex = 0;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Montserrat SemiBold", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(384, 211);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(259, 185);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Test";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // menuStrip1
             // 
@@ -205,7 +206,7 @@
             // Exit_ToolStripMenuItem
             // 
             this.Exit_ToolStripMenuItem.Name = "Exit_ToolStripMenuItem";
-            this.Exit_ToolStripMenuItem.Size = new System.Drawing.Size(160, 26);
+            this.Exit_ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.Exit_ToolStripMenuItem.Text = "Thoát";
             this.Exit_ToolStripMenuItem.Click += new System.EventHandler(this.Exit_ToolStripMenuItem_Click);
             // 
@@ -228,16 +229,15 @@
             // 
             this.toolStripContainer1.TopToolStripPanel.Controls.Add(this.menuStrip1);
             // 
-            // button1
+            // label_Name
             // 
-            this.button1.Font = new System.Drawing.Font("Montserrat SemiBold", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(384, 211);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(259, 185);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Test";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.label_Name.AutoSize = true;
+            this.label_Name.Font = new System.Drawing.Font("Montserrat", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Name.Location = new System.Drawing.Point(13, 16);
+            this.label_Name.Name = "label_Name";
+            this.label_Name.Size = new System.Drawing.Size(93, 23);
+            this.label_Name.TabIndex = 1;
+            this.label_Name.Text = "Xin chào: ";
             // 
             // MainForm
             // 
@@ -261,6 +261,7 @@
             this.splitContainer1.ResumeLayout(false);
             this.panel_Sidebar.ResumeLayout(false);
             this.panelContainer.ResumeLayout(false);
+            this.panelContainer.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.toolStripContainer1.ContentPanel.ResumeLayout(false);
@@ -276,7 +277,6 @@
 
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.Panel panel_Sidebar;
-        private System.Windows.Forms.Button btn_DangNhap;
         public System.Windows.Forms.Button btn_DangXuat;
         public System.Windows.Forms.Button btn_DoanhThu;
         public System.Windows.Forms.Button btn_QuanLyTaiKhoan;
@@ -290,6 +290,7 @@
         private System.Windows.Forms.ToolStripMenuItem Exit_ToolStripMenuItem;
         private System.Windows.Forms.ToolStripContainer toolStripContainer1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label_Name;
     }
 }
 

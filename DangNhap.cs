@@ -20,12 +20,14 @@ namespace DoAnCuoiKy
         public bool isLogin = false;
         public TextBox tb1;
         public TextBox tb2;
+        public string Name;
         public DangNhap()
         {
             InitializeComponent();
             //instance = this;
             tb1 = txtBox_Email;
             tb2 = txtBox_Pass;
+            Name = string.Empty;
         }
 
         private void txtBox_Pass_Enter(object sender, EventArgs e)
@@ -53,13 +55,15 @@ namespace DoAnCuoiKy
 
         private void btn_DangNhap_Click(object sender, EventArgs e)
         {
-            Account account = new Account() { UserName=txtBox_Email.Text.ToString(), Password=txtBox_Pass.Text.ToString()};
+            //Account account = new Account() { UserName=txtBox_Email.Text.ToString(), Password=txtBox_Pass.Text.ToString()};
+            Account account = obj.GetAccount(txtBox_Email.Text.ToString());
             if (obj.CheckUser(account))
             {
                 isLogin = true;
                 MainForm mainForm = new MainForm();
-                mainForm.Show();
-                this.Hide();
+                mainForm.Show();//Mở form chính
+                this.Hide();//Đóng form đăng nhập
+                mainForm.lbl_Name.Text += account.Name.ToString();
                 mainForm.DangXuat += MainForm_DangXuat;
             }
             else
